@@ -26,13 +26,9 @@ void Renderer::Initialize()
 
 	// 1) create the data array (stored in RAM)
 	GLfloat verts[] = {
-		0.0f, -0.5f, 0.0f,
+		0.30f, -0.5f, 0.0f,
 		0.0f, 1.0f, 0.0f,
 		-0.30f, -0.5f, 0.0f,
-		-1.0f, 0.0f, 0.0f,
-		-1.0f, -1.0f, 0.0f,
-		-0.30f, -0.5f, 0.0f,
-
 	};
 
 	// 2) create a buffer object name(ID) holder. (it is defined in Renderer.h)
@@ -69,7 +65,7 @@ void Renderer::Initialize()
 
 
 	// Create and compile our GLSL program from the shaders
-	GLuint programID = LoadShaders( "SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader" );
+	 programID = LoadShaders( "SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader" );
 	// Use our shader
 	glUseProgram(programID);
 }
@@ -100,7 +96,7 @@ void Renderer::Draw()
 
 		// Draw the triangle !
 		// note that glDrawArrays, uses the currently bound BO in GL_ARRAY_BUFFER.
-		glDrawArrays(GL_TRIANGLES, 0, 6); // 3 indices starting at 0 -> 1 triangle
+		glDrawArrays(GL_TRIANGLES, 0, 3); // 3 indices starting at 0 -> 1 triangle
 
 		glDisableVertexAttribArray(0);
 
