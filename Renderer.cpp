@@ -26,13 +26,16 @@ void Renderer::Initialize()
 
 	// 1) create the data array (stored in RAM)
 	GLfloat verts[] = {
-		0.9f, 0.0f, 0.6f,
-		1.0f, 0.0f, 0.0f,
-		1.0f, 1.0f, 0.0f,
 
-		-0.3f, 0.0f, 0.3f,
-		-0.3f, 0.3f, 0.3f,
-		1.0f, 1.0f, 0.0f
+		-1.0f, 0.0f, 0.0f,
+		0.0f, 1.0f, 0.0f,
+	    -0.30f, -0.5f, 0.0f,
+
+		0.30f, -0.5f, 0.0f,
+		0.0f, 1.0f, 0.0f,
+		-0.30f, -0.5f, 0.0f,
+
+
 	};
 
 	// 2) create a buffer object name(ID) holder. (it is defined in Renderer.h)
