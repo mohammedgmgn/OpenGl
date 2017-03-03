@@ -1,4 +1,4 @@
-﻿Build started 3/3/2017 3:26:00 AM.
+﻿Build started 3/3/2017 4:50:47 AM.
      1>Project "C:\Users\siko\Desktop\Primitive_Drawing - OpenGl 3.3+ - Copy\Primitive_Drawing - 3.3+\Primitive_Drawing\Primitive_Drawing.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          E:\VS2013\VC\bin\CL.exe /c /I"E:\studying\2 term\current\graphics\labs\Lab1 - 2017\Needed Libraries\glfw\include" /I"E:\studying\2 term\current\graphics\labs\Lab1 - 2017\Needed Libraries\glew\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp
@@ -12,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.12
+Time Elapsed 00:00:01.43
